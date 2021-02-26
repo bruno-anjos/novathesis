@@ -25,15 +25,15 @@
 %%      - joaomlourenco
 %%
 %% CONTRIBUTORS @github:
-%%      - bcandeias, flaviomartins, tmonteiro2344, jsaramago, 
+%%      - bcandeias, flaviomartins, tmonteiro2344, jsaramago,
 %%        microlina, riclas, pedrovieira
 %%
 %% DONATIONS:
 %%     If you think this template really helped you while writing your thesis,
 %%     think about making a small donation. Just access the website
 %%     https://paypal.me/novathesis
-%%     and click in the “Donation” link.  We will keep a list thanking to all 
-%%     the identified donors that identify themselves in the “Add special 
+%%     and click in the “Donation” link.  We will keep a list thanking to all
+%%     the identified donors that identify themselves in the “Add special
 %%     instructions to the seller:” box.
 %%
 %% CITATION:
@@ -49,7 +49,7 @@
 %%            year         = {2021},
 %%            url          = {https://github.com/joaomlourenco/novathesis/raw/master/template.pdf},
 %%           }
-%% 
+%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%------------------------------------------------------------
@@ -72,7 +72,7 @@
 %                               %     [ phd, phdplan, phdprop, msc, mscplan, bsc ]
 
 % \ntsetup{school=ul/fc}    % The school id
-%                               %     [ nova/fct, nova/fcsh, nova/ims, nova/ensp, 
+%                               %     [ nova/fct, nova/fcsh, nova/ims, nova/ensp,
 %                               %       ul/ist, ul/fc, ipl/isel, ips/ests, esep,
 %                               %       iscte-iul/ista, consortium/msc-gt ]
 
@@ -82,28 +82,28 @@
 % \ntsetup{lang=pt}             % The main language for the document text
 %                               %     [ en, pt, fr, it, de, es ]
 
-% \ntsetup{linkscolor=SteelBlue}% The color for the hyperlinks (URLs, 
+% \ntsetup{linkscolor=SteelBlue}% The color for the hyperlinks (URLs,
 %                               %     cross references, citations)
-%                               %     for valid color names, look at "svgname" 
+%                               %     for valid color names, look at "svgname"
 %                               %     in the "xcolor" package documentation
 
 % \ntsetup{media=paper}         % The target media for the PDF
 %                               %     [ screen, paper ]
-%                               %     SCREEN ==> left and right margins are 
+%                               %     SCREEN ==> left and right margins are
 %                               %                equal, colored links
-%                               %     PAPER  ==> left and right margins are 
+%                               %     PAPER  ==> left and right margins are
 %                               %                 different, black links
 
 % \ntsetup{printcommittee=false}% Should the committee be printed??
 %                               %     should be 'false' for document versions still
-%                               %     under work/evaluation.   Only final versions 
+%                               %     under work/evaluation.   Only final versions
 %                               %     should have the list of committee members.
 
 % \ntsetup{printcopyright=false} % Should the copyright message be printed??
 
 % \ntsetup{secondcover=true}    % Should a second cover page be printed?
-%                               %     if the contents for the second page are not 
-%                               %     defined, the second cover will be a replica 
+%                               %     if the contents for the second page are not
+%                               %     defined, the second cover will be a replica
 %                               %     of the first cover.
 
 % \ntsetup{urlstyle=same}       % Use the same (main) font in URLs
@@ -113,8 +113,8 @@
 %% THE LESS IMPORTANT/POPULAR OPTIONS
 %%------------------------------------------------------------
 % \ntsetup{fontstyle=erewhon}   % The font set to be used in the document
-%                               %     [ kpfonts bookman libertine, scholax 
-%                               %       calibri(*), kieranhealy(*) ] 
+%                               %     [ kpfonts bookman libertine, scholax
+%                               %       calibri(*), kieranhealy(*) ]
 %                               %     (*) only for xelatex/lualatex)
 
 % \ntsetup{chapstyle=bluebox}   % The chapter style to be used
@@ -122,14 +122,14 @@
 %                               %       lyhne madsen pedersen section southall veelo
 %                               %       vz34 vz43 ]
 
-% \ntsetup{coverlang=en}        % The language for the cover (and second cover) page 
+% \ntsetup{coverlang=en}        % The language for the cover (and second cover) page
 %                               %     defaults to main document language
 
 % \ntsetup{copyrightlang=en}    % The language for the copyright message
 %                               %     defaults to main document language
 
 % \ntsetup{aftercover=true}     % Does the document have after cover pages??
-%                               %     after cover pages are printed immediately 
+%                               %     after cover pages are printed immediately
 %                               %     after the cover pages
 
 % \ntsetup{spine=true}          % Print a “book spine” at the end of the document
@@ -215,7 +215,7 @@
 \ntdegreename(pt){\embrace{Designação do Curso}}
 \ntdegreename(en){\embrace{Study Program Name}}
 
-%%% Uncomment for MSc and PhD in Computer Science @ FCT-NOVA 
+%%% Uncomment for MSc and PhD in Computer Science @ FCT-NOVA
 % \ifphddoc{%
 %   % It is a PhD Degree in Computer Science
 %   \ntmajorfield(pt){Informática}
@@ -309,13 +309,13 @@
 %=============================================================================
 
 %%------------------------------------------------------------
-%% Except for the bibliography, all the other FILE NAMES below  
-%%     inside braces must correspond to a file with extension 
+%% Except for the bibliography, all the other FILE NAMES below
+%%     inside braces must correspond to a file with extension
 %%     ".tex" and located in the "Chapters" folder
 %%------------------------------------------------------------
 
 %%------------------------------------------------------------
-% BibTeX bibiography files and customization.  
+% BibTeX bibiography files and customization.
 %   May be used multiple times with a single file nae each time.
 %   syntax: \ntaddfile{bib}{filename.bib}
 \ntaddfile{bib}{bibliography.bib}
@@ -446,7 +446,7 @@
 \ntprintdedicatory      % (*) Print the dedicatory
 \ntprintacknowledgements% (*) Print the acknowledgments
 \ntprintquote           % (*) Print the quote
-\ntprintabstracts       % Print abstracts in multiple languages. 
+\ntprintabstracts       % Print abstracts in multiple languages.
                         % Changing the language will change the order of the abstracts
 \ntprintallindexes      % Print all the indexes defined above TOC, LOF, LOT, …)
 % (*) Will only be printed if adequate for the document type
@@ -455,7 +455,7 @@
 \ntthesismainmatter     % The main text — Arabic page numbering
 %%------------------------------------------------------------
 \ntprintchapters        % Print document chapters
-\ntprintbib             % Print the bibliography.  Change to 
+\ntprintbib             % Print the bibliography.  Change to
                         %   "\ntprintbib[title=⟨title⟩]" to redefine the title!
 \ntprintappendixes      % Print appendixes, if any!
 \ntprintannexes         % Print appendixes, if any!
